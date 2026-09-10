@@ -24,6 +24,8 @@ function displayKeyPress(event) {
 
 // Function to display user input in real-time
 function displayUserInput() {
+  document.getElementsById("textInputDisplay").textContent =
+    document.getElementsById("textInput").value
   // Implement the function to display user input
 }
 
